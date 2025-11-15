@@ -22,7 +22,7 @@ from google import generativeai as genai
 # ------------------------------------------
 # GOOGLE AI STUDIO API SETUP
 # ------------------------------------------
-os.environ["GOOGLE_API_KEY"] = "AIzaSyCr_cryDofFFI0l76JuvD0qxJzcW-A_btg"   # <- PUT YOUR API KEY HERE
+os.environ["GOOGLE_API_KEY"] = "YOUR_API_KEY_HERE"   # <- PUT YOUR API KEY HERE
 genai.configure(api_key=os.environ["GOOGLE_API_KEY"])
 
 # ------------------------------------------
@@ -198,3 +198,4 @@ def main_menu():
 # ------------------------------------------
 if __name__ == "__main__":
     main_menu()
+
